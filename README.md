@@ -10,6 +10,7 @@ Run Ansible for windows host with vagrant (WITHOUT WSL).
 |-------------|-------------|-----|--|
 | Windows | 10 | https://www.microsoft.com/de-de/software-download/windows10 | You need to have a local administrator account on your windows host |
 | Vagrant | >= 2.2.9 | https://www.vagrantup.com/downloads.html | N/A |
+| VirtualBox | >= 6.1 | https://www.virtualbox.org/ | N/A |
 
 See paragraph *Installing* if prerequisites are missing. 
 
