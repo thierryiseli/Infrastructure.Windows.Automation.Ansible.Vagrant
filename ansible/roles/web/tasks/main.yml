@@ -1,0 +1,11 @@
+---
+- name: Install Google Chrome
+  win_chocolatey:
+    name: googlechrome
+- name: Install Firefox
+  win_chocolatey:
+    name: firefox
+- name: Install Postman API Tool
+  win_chocolatey:
+    name: postman
+...

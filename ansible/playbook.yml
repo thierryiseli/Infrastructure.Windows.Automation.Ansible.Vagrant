@@ -1,0 +1,12 @@
+---
+- hosts: windows_host
+  become_method: runas
+  become_user: Administrator
+  vars:
+    ansible_connection: winrm
+    ansible_winrm_transport: basic
+    ansible_winrm_server_cert_validation: ignore
+  roles:
+  - basics
+  - web
+...

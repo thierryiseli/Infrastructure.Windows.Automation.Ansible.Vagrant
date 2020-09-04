@@ -1,0 +1,11 @@
+---
+- name: Install Notepad++
+  win_chocolatey:
+    name: notepadplusplus
+- name: Install Git Extensions
+  win_chocolatey:
+    name: gitextensions
+- name: Install Keepass
+  win_chocolatey:
+    name: keepass
+...
